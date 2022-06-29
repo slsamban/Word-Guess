@@ -5305,7 +5305,7 @@ class ViewController: UIViewController {
         
         randomWord = wordsToPresent[randomNumber]
         //randomWord = "DRINK"
-        print("New random word:")
+        //print("New random word:")
         print(randomWord)
         
         textField11.text = ""
