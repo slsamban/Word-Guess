@@ -188,7 +188,7 @@ class ViewController: UIViewController {
             if(guessNumber==6){
                 //print("You lost the game")
                 //If the user want, reset the game
-                let alert = UIAlertController(title: "Looser!", message: "You lost the game.", preferredStyle: .alert)
+                let alert = UIAlertController(title: "Looser!", message: "You lost the game. Correct word was '\(randomWord)'", preferredStyle: .alert)
                     
                     let okButton = UIAlertAction(title: "Try Again", style: .default) { _ in
                         self.resetGame()
